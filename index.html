@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>BetaminC</title>
+  </head>
+  <body>
+    <div class="one">
+      <header class="navbar">
+        <div class="left">
+          <h1>BetaminC</h1>
+        </div>
+        <nav class="right">
+          <a href="#">About</a>
+          <a href="#">Contact Us</a>
+          <a href="#">Log in</a>
+        </nav>
+        <div class="hamburger">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+      </header>
+
+      <nav class="mobilenavbar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Log in</a>
+        <a href="#">Sign Up</a>
+      </nav>
+      <div class="container">
+        <div class="text"></div>
+      </div>
+      <div class="wrapper">
+        <ul class="flex cards">
+          <li>
+            <p>
+              The coal industry in India is regulated by a number of laws and
+              regulations, which are designed to ensure the safety of miners,
+              the protection of the environment, and the sustainable development
+              of the industry.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              CoalSaathi is Web-Based Chatbot Which can give a Clear
+              Understanding on How the Ministry of Coal Structured the Rules and
+              Regulations.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="two"></div>
+
+    <script src="script.js"></script>
+  </body>
+  <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+  <script>
+    window.botpressWebChat.init({
+      composerPlaceholder: "BetaminC",
+      botConversationDescription: "Web Based Chatbot By Team BetaminC.",
+      botId: "c7c82a67-f70a-4943-ac1a-2b460fe713ad",
+      hostUrl: "https://cdn.botpress.cloud/webchat/v1",
+      messagingUrl: "https://messaging.botpress.cloud",
+      clientId: "c7c82a67-f70a-4943-ac1a-2b460fe713ad",
+      lazySocket: true,
+      frontendVersion: "v2",
+      showPoweredBy: true,
+    });
+  </script>
+</html>
